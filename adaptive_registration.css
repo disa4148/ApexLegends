@@ -1,0 +1,107 @@
+@media screen and (max-width: 1360px) {
+
+form {
+	width: 450px;
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 34px;
+}
+
+input[type = "text"], input[type= "password"], input[type= "Email"]{
+	width: 260px;
+	height: 25px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+input[type = "text"]:focus, input[type= "password"]:focus, input[type= "Email"]:focus {
+	width: 310px;
+}
+
+.soglasie, .confirm {
+	font-size: 17px;
+}
+
+#errormsg {
+	font-size: 23px;
+}
+
+input[type = "checkbox"] {
+	height: 17px;
+	width: 17px;
+}
+
+input[type = "submit"]{
+	width: 110px;
+	height: 37px;
+	margin-left: 178px;
+	border-radius: 20px;
+}
+
+@media screen and (max-width: 590px) {
+
+form {
+	width: 76.27vw;
+	height: 105.08vw;
+}
+
+h1 {
+	font-size: 5.76vw;
+}
+
+input[type = "text"], input[type= "password"], input[type= "Email"]{
+	width: 44.07vw ;
+	height: 4.24vw;
+}
+
+input[type = "checkbox"] {
+	height: 2.88vw;
+	width: 2.88vw;
+}
+
+.soglasie, .confirm {
+	font-size:  2.88vw;
+}
+
+#errormsg {
+	font-size: 3.90vw;
+}
+
+input[type = "submit"]{
+	width: 18.64vw;
+	height: 6.27vw;
+	margin-inline: auto;
+}
+
+@media screen and (max-width: 400px) {
+
+form {
+	height: 120vw;
+}
+
+
+input[type = "text"], input[type= "password"], input[type= "Email"]{
+	width: 45vw;
+	height: 6.50vw;
+	font-size: 3.50vw;
+}
+
+input[type = "submit"]{
+	width: 20vw;
+	height: 7vw;
+	margin-inline: auto;
+}
+
+.soglasie, .confirm {
+	font-size:  3.25vw;
+}
+
+input[type = "text"]:focus, input[type= "password"]:focus, input[type= "Email"]:focus {
+	width: 57.50vw;
+}
+
+}

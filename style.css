@@ -1,0 +1,437 @@
+html {
+scroll-behavior: smooth;
+}
+body {
+padding: 0px;
+margin: 0px;
+border: 0px;
+
+}
+
+* {
+font-family: "TT Lakes W05 Regular", sans-serif;	
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5 {
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	padding: 0;
+	margin: 0;
+}
+
+.gamburger-menu {
+	position: relative;
+	z-index: 9999999;
+}
+
+.pre-header {
+	background-color: #333333;
+	height: 2.50vw;
+}
+.icons {
+	float: right;
+	padding-right: 4.17vw;
+	padding-top: 0.36vw;
+}
+.profile, .question {
+	transition-duration: 0.5s;
+	width: 1.67vw;
+	height: 1.67vw;
+}
+.profile:hover, .question:hover {
+	width: 1.88vw;
+	height: 1.88vw;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	background-color: black;
+	height: 3.39vw;
+}
+.logotipp {
+	margin-left: 3.13vw;
+	width: 3.65vw; 
+	height: 2.08vw;
+	cursor: pointer;
+
+}
+
+.logotippp, .gamburger-menu, .logotip_adaptive_960 {
+	display: none;
+}
+
+.nav-bar {
+	font-size: 0.94vw;
+	padding-left: 10.42vw;
+}
+.nav-bar a {
+	text-decoration: none;
+	color: white;
+	transition-duration: 0.5s;
+}
+.nav-bar-element {
+	margin-left: 2.60vw;
+}
+.nav-bar-element:hover {
+	color: grey;
+}
+.button {
+	margin-left: 28.65vw;
+	border-radius: 0.26vw;
+  	border: 0.05vw solid #BF1A1A;
+  	background-color: #BF1A1A;
+  	padding:  0.26vw 1.04vw;
+}
+
+.button:hover {
+	background-color: #F51111;
+	padding: 0.36vw 1.15vw;
+}
+
+#block-one {
+	background: url("img/mainbackgroundfirstblock.png") no-repeat;
+	height: 51.04vw;
+	background-size: 100% 100%;
+}
+
+.fleeeex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 8.85vw;
+	padding-left: 41.67vw;
+}
+
+.fleeeex p {
+	text-align: center;
+	width: 31.25vw;
+	font-size: 1.77vw;
+	color: white;
+	margin-top: 1.82vw;
+}
+
+.fleeeex img {
+	padding-right: 1.56vw;
+}
+
+.button-play-free {
+	margin-top: 2.08vw;
+	font-size: 3.13vw;
+	border: 0.21vw solid white;
+	padding: 0.26vw 0.52vw;
+	position: relative;
+	transition-duration: 0.25s;
+	width: 26.04vw;
+}
+
+.button-play-free:hover {
+	padding: 7px 10px;
+}
+
+.logotip {
+	width: 16.67vw;
+	height: 12.50vw ;
+}
+
+.fleeeex a {
+	text-decoration: none;
+	color: white;
+}
+
+.relativniy-div {
+	position: relative;
+	bottom: 52.60vw;
+}
+.flex-div{
+	display: flex;
+}
+#two-block {
+	height: 54.73vw;
+}
+#two-block video {
+	width: 100%;
+	filter: brightness(65%);
+
+}
+.flexible {
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+.two-block-zagolovok {
+	color: white;
+	font-size: 2.60vw;
+	text-align: center;
+	font-weight: bold;
+	line-height: 0.94vw;
+}
+.basic-information-two-block {
+	margin-top: 2.34vw;
+	font-family: "TT Lakes W05 Regular", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #F3F3F3;
+	font-size: 1.67vw;
+	line-height: 2.10vw;
+	text-align: center;
+}
+
+.cup, .gun, .skull {
+	width: 21.77vw;
+	height: 15.94vw;
+}
+
+.flexible img {
+	margin-top: 3.65vw;
+}
+
+.flexible p {
+	font-size: 1.67vw;
+	font-weight: bold;
+	margin-top: 1.04vw;
+}
+
+.flexible h6 {
+	font-size: 1.30vw;
+	font-weight: 400;
+	letter-spacing: 0em;
+	line-height: 1.8vw;
+	margin-bottom: 2.60vw;
+}
+
+#three-block {
+	background:  linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("img/Seer2.png") no-repeat ;
+	height: 41.04vw;
+	background-size: 100% 100%;
+}
+
+.three-block-zagolovok h3 {
+	color: #F3F3F3;
+	font-size: 2.81vw;
+	font-weight: bold;
+	width: 41.67vw;
+	text-align: center;
+}
+
+.three-block-zagolovok p {
+	color: #F3F3F3;
+	font-size: 1.88vw;
+	text-align: center;
+	width: 41.67vw;
+	margin-top: 2.08vw;
+}
+
+
+.button-show-more {
+	background-color: #BF1A1A;
+	border: 0.05vw solid #BF1A1A;
+	padding: 0.26vw 1.04vw;
+	font-size: 1.88vw;
+	width: 13.28vw;
+	transition-duration: 0.25s;
+
+}
+.button-show-more:hover {
+	background-color: #F51111;
+	padding: 0.36vw 1.15vw;
+	border-radius: 0.26vw;
+	box-shadow: 0.52vw 0.26vw 0.26vw red;
+}
+
+.three-block-zagolovok {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    margin-top: 5.21vw;
+    margin-right: 6.25vw;
+}
+.three-block-zagolovok a {
+	color: #F3F3F3;
+	text-decoration: none;
+	margin-top: 4.17vw;
+}
+
+#block-four {
+	background: url("img/Background-four-block.png") no-repeat;
+	height: 49.43vw;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: space-evenly;
+	color: white;
+}
+
+.flex {
+	margin-top: 5.21vw;
+	background-color: #0E0C0C;
+	width: 26.09vw;
+	height: 38.02vw;
+	border-bottom: 0.78vw solid #CA2222;
+}
+
+.flex h1 {
+	font-size: 1.67vw;
+	margin: 0.52vw;
+}
+
+.flex p {
+	margin: 2.08vw 0.52vw 0.52vw 0.52vw;
+	font-size: 1.46vw;
+}
+
+.watson, .mirage, .siar {
+	width: 26.09vw;
+	height: 15.42vw;
+}
+
+.line {
+	display: none;
+}
+
+#five-block {
+	 height: 39.69vw;
+	 background-color: #0D0C0C;
+	 color: white;
+	 display: flex;
+
+}
+
+.flexquery {
+	display: flex;
+	flex-direction: column;
+}
+
+.right-five {
+	margin: 6.25vw 0vw 0vw 12.50vw;
+}
+
+.zagolovok-five {
+	margin: 5.83vw 0vw 0vw 6.25vw;
+	font-size: 2.60vw;
+	width: 36.46vw;
+}
+
+.special-offers {
+	margin: 10.42vw 0vw 0vw 6.25vw;
+	font-size: 1.56vw;
+	width: 23.44vw;
+}
+
+.first-button {
+	float: right;
+	width: 26.04vw;
+	height: 3.13vw;
+	color: black;
+	text-align: left;
+	font-size: 0.94vw;
+	padding-left: 0.52vw;
+}
+
+input[type="date"]{
+  	background-color: white;
+  	padding: 0.89vw 2.08vw 0.78vw 2.08vw;
+  	font-family: "Roboto Mono",monospace;
+  	color: #4F4F4F;
+  	font-size: 0.94vw;
+  	border: none;
+  	outline: none;
+  	border-radius: 0.26vw;
+  	width: 11.98vw;
+
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #CA2222;
+    padding: 0.26vw 0.26vw 0.26vw 0.26vw;
+    cursor: pointer;
+    border-radius: 0.16vw;
+}
+
+.custom-dropdown select {
+  	cursor:pointer;
+  	background-color: white;
+  	color: #4F4F4F;
+  	font-size: 0.89vw;
+  	padding: 1.15vw 0.83vw 0.89vw 4.69vw;
+  	border-radius: 0.26vw;
+  	text-indent: 0.01px;
+  	text-overflow: '';
+  	border: none;
+  	width: 11.98vw;
+  	height: 3.02vw;
+  	margin-left: 1.88vw;
+  	margin-top: 1.51vw;
+  	-webkit-appearance: button; /* hide default arrow in chrome OSX */
+}
+
+input[type="checkbox"] {
+	height: 1.04vw;
+	width: 1.04vw;
+	position: relative;
+	bottom: 2.97vw;
+}
+
+.ysloviya-rassilki {
+	color: white;
+	font-size: 1.30vw;
+	display: inline-block;
+	width: 20.83vw;
+	margin-top: 2.60vw;
+}
+
+.five-block-button {
+	font-size: 1.67vw;
+	border: 0.05vw solid #E33348;
+	background-color: #BF1A1A;
+	width: 10.16vw;
+	padding: 0.52vw;
+	text-decoration: none;
+	color: white;
+	transition: 0.3s ease all;
+	border-radius: 1.04vw;
+	position: relative;
+	top: 3.13vw;
+}
+.five-block-button:hover {
+	background-color: #F51111;
+	padding: 0.78vw;
+}
+
+footer {
+	background-color: #21201E;
+	height: 7.55vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.all-rights-center {
+	color: #AEAEAE;
+	width: 9.90vw;
+	line-height: 1.30vw;
+	font-size: 0.83vw;
+}
+.politics {
+	line-height: 1.30vw;
+	font-size: 0.94vw;
+}
+.politics a {
+	text-decoration: none;
+	color: #AEAEAE;
+}
+#fotter-one:hover, #footer-two:hover, #footer-three:hover, #footer-four:hover, #footer-five:hover {
+	text-decoration: underline;
+}
+
+.footer-logo {
+	width: 13.02vw;
+	height: 7.24vw;
+}

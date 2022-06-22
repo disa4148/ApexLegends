@@ -1,0 +1,474 @@
+@media screen and (max-width: 960px) {
+
+	.auth, .logotip, .logotipp, .button, .basic-information-two-block, #two-block video, .three-block-zagolovok h3{
+		display: none;
+	}
+	
+	.pre-header {
+		background-color: #1D1B1B;
+		height: 6.25vw;
+		display: flex;
+		align-items: center;
+		align-content: center;
+		justify-content: space-between;
+	}
+	
+	.nav-bar {
+		display: flex;
+		flex-direction: column;
+		transform: translateX(-580px);
+		position: fixed;
+		top: 0;
+		z-index: 2;
+		transition: 0.3s ease all;
+		width:40vw;
+		height: 100%;
+		background-color: black;
+		border-left: 3px #E33348 solid;
+		font-size: 30px;
+		padding-top: 80px;
+		padding-left: 0px;
+		left: 0;
+	}
+	
+	.nav-bar-element {
+		margin-top: 20px;
+	}
+	
+	.nav-bar.active {
+		transform: translateX(0px);
+	}
+	
+	.gamburger-menu.active {
+		position: fixed;
+	}
+	
+	.profile, .question {
+		transition-duration: 0.5s;
+		width: 4.67vw;
+		height: 4.67vw;
+	}
+	
+	.gamburger-menu, .logotip_adaptive_960, .line {
+		display: block;
+	}
+	
+	.gamburger-menu {
+		padding-left: 3.13vw;
+		height: 3.13vw;
+		z-index: 3;
+	}
+	
+	#block-one {
+		background: black;
+		height: 72.92vw;
+		background-size: 100% 100%;
+	}
+	
+	.logotip_adaptive_960 {
+		width: 38.13vw;
+		height: 24.38vw;
+	}
+	
+	.fleeeex {
+		padding-left: 0;
+	}
+	
+	.fleeeex p {
+		font-size: 3.13vw;
+		width: 52.08vw;
+		margin-top: 4.17vw;
+	}
+	
+	.button-play-free {
+		margin-top: 5.21vw;
+		width: 34.38vw;
+		border: 0.21vw solid #E33348;
+		border-radius: 1.04vw;
+		background-color: #E33348;
+		text-align: center;
+		font-size: 3.75vw;
+	}
+	
+	.relativniy-div {
+		position: static;
+	}
+	
+	#two-block {
+		background: url(img/two_block_adaptive_960.png) no-repeat;
+		background-size: 100% 100%;
+		height: 234.38vw;
+	}
+	
+	.two-block-zagolovok {
+		padding-top: 9.38vw;
+		font-size: 4.17vw;
+	}
+	
+	.flex-div {
+		flex-direction: column;
+		padding-top: 8.33vw;
+	}
+	
+	.cup, .gun, .skull {
+		width: 47.71vw; 
+		height: 31.98vw;
+	}
+	
+	.flexible p {
+		font-size: 4.17vw;
+	
+	}
+	
+	.flexible h6 {
+		font-size: 3.13vw;
+		line-height: 1.25em;
+		font-weight: 600;
+	
+	}
+	
+	#three-block {
+		background: url(img/background_three_block_adaptive960px2.png) no-repeat;
+		background-size: 100% 100%;
+		height: 52.08vw;
+	
+	}
+	
+	
+	#block-four {
+		background: url("img/background_four_adapive960.png") no-repeat;
+		background-size: 100% 100%;
+		height: 213.54vw;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		align-content: center;
+		padding-top: 31.25vw;
+	}
+	
+	.three-block-zagolovok p, .three-block-zagolovok a {
+		position: relative;
+		top: 48.96vw;
+		right: 9.38vw;
+	}
+	
+	.three-block-zagolovok p {
+		font-size: 3.13vw;
+		width: 67.71vw;
+	}
+	
+	.button-show-more {
+		font-size: 2.60vw;
+		width: 18.23vw;
+		padding: 0.73vw 2.08vw;
+	}
+	
+	.button-show-more:hover {
+		padding: 0.73vw 2.29vw;
+	}
+	
+	.line {
+		padding-top: 2.60vw;
+	}
+	
+	.flex {
+		width: 48.96vw;
+		height: 62.50vw;
+	}
+	
+	.flex h1 {
+		font-size: 2.92vw;
+		padding: 1.04vw 0px 0px 1.04vw;
+	}
+	
+	.flex p {
+		font-size: 2.60vw;
+		padding: 1.04vw 0px 0px 1.04vw;
+	}
+	
+	.watson, .mirage, .siar {
+		width: 48.96vw;
+		height: 28.65vw;
+	}
+	
+	#five-block {
+		flex-direction: column;
+		align-items: center;
+		height: 78.13vw;
+	}
+	
+	.right-five {
+		margin: 0vw 10.42vw 0vw 10.42vw;
+	}
+	
+	.reverse-button {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.zagolovok-five {
+		margin: 0;
+		font-size: 4.58vw;
+		width: 62.50vw;
+		padding-top: 5.21vw;
+	}
+	
+	.special-offers {
+		margin: 0;
+		font-size: 2.92vw;
+		width: 62.50vw;
+		color: #6C6969;
+		margin-top: 2.08vw;
+	}
+	
+	.first-button {
+		width: 62.50vw;
+		height: 5.21vw;
+		font-size: 2.08vw;
+		margin-top: 2.08vw;
+		padding-left: 2.08vw;
+		border-radius: 2.08vw;
+	}
+	
+	input[type="date"]{
+		width: 62.50vw;
+		height: 5.21vw;
+		font-size: 2.08vw;
+		border-radius: 2.08vw;
+		margin-top: 2.08vw;
+	}
+	
+	.custom-dropdown select {
+		width: 62.50vw;
+		height: 5.21vw;
+		font-size: 2.08vw;
+		border-radius: 2.08vw;
+		margin: 2.08vw 0vw 0vw 0vw;
+	}
+	
+	input[type="checkbox"] {
+		height: 2.29vw;
+		width: 2.29vw;
+		bottom: 6.25vw;
+	}
+	
+	.ysloviya-rassilki {
+		font-size: 2.71vw;
+		width: 62.50vw;
+		margin-top: 2.60vw;
+		letter-spacing: 0.21vw;
+		font-weight: 400;
+	}
+	
+	.five-block-button {
+		font-size: 1.67vw;
+		padding: 1.25vw 2.08vw 1.25vw 2.08vw;
+		border-radius: 1.04vw;
+		top: 3.13vw;
+	}
+	.five-block-button:hover {
+		padding: 1.56vw 2.29vw 1.56vw 2.29vw;
+	}
+	
+	footer {
+		height: 10.42vw;
+	}
+	
+	.all-rights-center {
+		width: 15.63vw;
+		line-height: 2.08vw;
+		font-size: 1.56vw;
+	}
+	.politics {
+		line-height: 1.88vw;
+		font-size: 1.46vw;
+		padding-right: 5.21vw;
+	}
+	.footer-logo {
+		width: 18.88vw;
+		height: 9.4vw;
+	}
+	}
+	
+	@media screen and (max-width: 420px) {
+	.pre-header {
+		height: 8.75vw;
+	}
+	
+	.nav-bar {
+		font-size: 22px;
+		width: 55%;
+		padding-top: 80px;
+	}
+	
+	
+	#two-block {
+		height: 312.50vw;
+	}
+	
+	.profile, .question {
+		width: 7vw;
+		height: 7vw;
+	}
+	.gamburger-menu {
+		width: 4.50vw;
+		height: 5vw;
+	}
+	.logotip_adaptive_960 {
+		width: 42.50vw;
+		height: 26.25vw;
+	}
+	#block-one {
+		height: 80vw;
+	}
+	.fleeeex p {
+		font-size: 4.50vw;
+		width: 75vw;
+	}
+	.button-play-free {
+		width: 37.50vw;
+		font-size: 4.1vw;
+	}
+	.two-block-zagolovok {
+		font-size: 4.50vw;
+	}
+	.cup, .gun, .skull {
+		width: 60vw;
+		height: 37.50vw;
+	}
+	.flexible p {
+		font-size: 7vw;
+		padding-top: 5vw;
+	}
+	.flexible h6 {
+		font-size: 4.50vw;
+		font-weight: 500;
+		margin-bottom: 2.50vw;
+	}
+	#three-block {
+		height: 50.08vw;
+	}
+	
+	.three-block-zagolovok p {
+		font-size: 4.25vw;
+		text-align: center;
+		width: 91.72vw;
+		position: relative;
+		left: 1.25vw;
+	}
+	
+	.three-block-zagolovok a {
+		right: -1.62vw;
+		top: 46.96vw;
+		font-size: 4.25vw;
+		width: 30vw;
+		margin-top: 5vw;
+	}
+	.line {
+		margin-top: 6.5vw;
+	}
+	
+	#block-four {
+		height: 288.75vw;
+	}
+	
+	.mirage, .watson, .siar {
+		width: 62.96vw;
+		height: 37.65vw;
+	}
+	.flex {
+		width: 62.96vw;
+		border-bottom: 1.25vw solid #CA2222;
+	}
+	
+	.cards-one, .cards-two, .cards-three {
+		height: 81.25vw;
+	}
+	
+	.flex h1 {
+		font-size: 3.75vw;
+	} 
+	
+	.flex p {
+		font-size: 3.75vw;
+	}
+	
+	#five-block {
+		height: 100vw;
+	}
+	
+	.zagolovok-five {
+		font-size: 5.50vw;
+		width: 87.50vw;
+		padding-left: 5vw;
+	}
+	
+	.special-offers {
+		font-size: 4vw;
+		width: 90vw;
+		padding-left: 5vw;
+	}
+	
+	.first-button {
+		width: 90vw;
+		height: 7.50vw;
+		font-size: 3.75vw;
+		border-radius: 6.25vw;
+		padding-left: 3.75vw;
+		margin-top: 5vw;
+	}
+	
+	input[type="date"]{
+		width: 90vw;
+		height: 7.50vw;
+		font-size: 3.75vw;
+		border-radius: 6.25vw;
+		padding-left: 5vw;
+	}
+	
+	.custom-dropdown select {
+		width: 90vw;
+		height: 7.50vw;
+		font-size: 3.75vw;
+		border-radius: 6.25vw;
+	}
+	
+	input[type="checkbox"] {
+		height: 2.50vw;
+		width: 2.50vw;
+		bottom: 7vw;
+	}
+	
+	.ysloviya-rassilki {
+		font-size: 3vw;
+	}
+	
+	.five-block-button {
+		font-size: 4vw;
+		border-radius: 5vw;
+		top: 5vw;
+	}
+	
+	footer {
+		height: 17.50vw;
+	}
+	
+	.footer-logo {
+		width: 32.50vw;
+		height: 15.75vw;
+	}
+	
+	.all-rights-center {
+		font-size: 2.25vw;
+		line-height: 3vw;
+	}
+	.politics {
+		font-size: 2.25vw;
+		line-height: 3vw;
+	}
+	
+	
+	}
+	
+	
+	
